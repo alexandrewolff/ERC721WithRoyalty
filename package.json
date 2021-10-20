@@ -1,0 +1,21 @@
+{
+  "name": "waffle-preparation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "waffle",
+    "test": "export NODE_ENV=test && mocha",
+    "prettier": "prettier --write 'src/**/*.sol'"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "mocha": "^9.1.3",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2"
+  }
+}
